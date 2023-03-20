@@ -76,7 +76,7 @@ function startDriverBin(bin, port) {
 }
 
 async function communicate(){
-  const driver = await startDriverBin('/Users/remydelhaise/Developpement/WOFT/electron-poc-webdriverio/resources/chromedriver', 4446);
+  const driver = await startDriverBin(path.resolve(__dirname, 'resources/chromedriver'), 4446);
   try {
     const browser = await webdriverio.remote({
       port: 4446,
