@@ -30,6 +30,6 @@
     "electron-squirrel-startup": "^1.0.0",
     "es6-promise": "^4.2.8",
     "wait-port": "^1.0.4",
-    "webdriverio": "^8.6.3"
+    "webdriverio": "^8.8.2"
   }
 }
